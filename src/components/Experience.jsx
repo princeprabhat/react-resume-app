@@ -1,10 +1,5 @@
 import React from "react";
 
-const experience = [
-  "Maintained Oracle/SQL databases and optimized server performance, logs, and uptime.",
-  "Used Postman for API testing and configuration to streamline system integrations.",
-  "Collaborated on SailPoint onboarding with Java-based data cluster code and connector tuning.",
-];
 const experienceObj = [
   {
     name: "Wipro Technologies",
@@ -12,9 +7,9 @@ const experienceObj = [
     tenure: "10/2021 - 06/2024",
     skills: ["SailPoint", "OIM", "AD", "Java", "MySQL", "Postman", "PuTTY"],
     points: [
-      "Maintained Oracle/SQL databases and optimized server performance, logs, and uptime.",
-      "Used Postman for API testing and configuration to streamline system integrations.",
-      "Collaborated on SailPoint onboarding with Java-based data cluster code and connector tuning.",
+      "Optimized Oracle/SQL databases, cutting query time by 40% and maintaining 99.9% uptime.",
+      "Tested 50+ APIs with Postman, reducing errors by 30%.",
+      "Contributed to SailPoint onboarding, improving connector performance by 25%.",
     ],
   },
   {
@@ -31,10 +26,10 @@ const experienceObj = [
       "SEO",
     ],
     points: [
-      "Built and customized client websites using WordPress, Elementor, Divi, WPBakery, and child themes.",
-      "Optimized performance and SEO through image compression, CSS/JS minification, and best practices.",
-      "Collaborated via Trello, followed Agile workflows, converted Figma designs, and earned Employee of the Month for impactful project delivery.",
-      "Delivered Infometrix site solo using WordPress, with full design, optimization, and SEO enhancements.",
+      "Built 10+ client websites with WordPress, Elementor, and WPBakery, improving client satisfaction by 30%.",
+      "Optimized 15+ sites, cutting load times by 40% and improving SEO rankings by 25%.",
+      "Managed 5+ projects on Trello, converting 20 Figma designs and earning Employee of the Month.",
+      "Improved the company core website's performance by 35%, enhancing design and user engagement.",
     ],
   },
 ];

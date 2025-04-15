@@ -16,13 +16,9 @@ const miniProjects = [
     name: "XCalculator – Interactive calculator for arithmetic operations",
     link: "https://github.com/princeprabhat/XCalculator",
   },
-  {
-    name: "XStopwatch - Stopwatch with start, stop, and reset functions",
-    link: "https://github.com/princeprabhat/XStopwatch",
-  },
 
   {
-    name: "Qtrip Dynamic – Destination Booking with Ease",
+    name: "Qtrip – Destination Booking with Ease",
     link: "https://qtrip-dynamic-theta-ten.vercel.app/",
   },
   {
