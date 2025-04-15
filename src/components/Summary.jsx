@@ -3,7 +3,7 @@ import React from "react";
 const Summary = () => {
   return (
     <div className="border-r-2 pr-2 text-left">
-      <p className="font-semibold text-lg text-slate-800 tracking-wide uppercase ">
+      <p className="font-semibold text-lg text-slate-800 tracking-wide uppercase">
         Summary
       </p>
       <p className="text-xs pb-1  text-gray-900 leading-normal">

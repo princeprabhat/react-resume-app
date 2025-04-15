@@ -10,7 +10,7 @@ const projectsData = [
       "Built complete cart and checkout features with wallet integration, dynamic address, and purchase confirmation flow.",
       "Deployed frontend on Vercel and backend on Render with MongoDB, ensuring seamless full-stack cloud deployment.",
     ],
-    link: "",
+    link: "https://qkart-frontend-alpha-seven.vercel.app/",
     type: "Full Stack eCommerce Application",
   },
   {
@@ -23,7 +23,7 @@ const projectsData = [
       "Developed major UI components like FAQ, offer banner, hospital search, and calendar booking modal.",
       "Used localStorage for booking data persistence, implemented routing with react-router-dom, and deployed on Vercel.",
     ],
-    link: "",
+    link: "https://x-medify-roan.vercel.app/",
     type: "Frontend Hospital Booking Application",
   },
   {
@@ -36,7 +36,7 @@ const projectsData = [
       "Fetched and displayed albums and songs from Qtify backend API with conditional rendering.",
       "Used react-router-dom for navigation and deployed the application on Vercel.",
     ],
-    link: "",
+    link: "https://qtify-frontend-gamma.vercel.app/",
     type: "Frontend Music Streaming Application",
   },
   {
@@ -48,7 +48,7 @@ const projectsData = [
       "Added interactive features like image slider, contact form with validation, and Google Captcha.",
       "Optimized images for performance and deployed the site on Hostinger.",
     ],
-    link: "",
+    link: "https://gauras.co.in/",
     type: "Frontend Dairy Product Application",
   },
   //   { id: 5, name: "Infometrix", stack: [], points: [], link: "", type: "" },
@@ -63,16 +63,18 @@ const Projects = () => {
       <div className="">
         {projectsData.map((el, idx) => {
           return (
-            <div key={idx} className="border-r-2 pr-2">
-              <div className="flex gap-2 align-middle items-center">
+            <div key={idx} className="border-r-2 pr-2 leading-none">
+              <div className="flex gap-2 items-center">
                 <span className="font-medium text-sm">{el.name} -</span>
                 <span className="text-xs font-medium text-slate-600">
                   {el.type}
                 </span>
 
                 <a
-                  href=""
+                  href={el.link}
                   className="text-xs bg-slate-500 text-slate-50 px-1 font-bold rounded "
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   link
                 </a>

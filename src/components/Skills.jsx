@@ -4,18 +4,20 @@ const skills = {
   Frontend: [
     "JavaScript",
     "TypeScript",
-    "HTML5",
-    "CSS",
     "React",
     "Next.js",
     "Redux",
     "Redux Toolkit",
     "TanStack Query",
+    "HTML5",
+    "CSS",
+    "Tailwind CSS",
+    "Bootstrap",
     "Material UI",
     "Mantine",
-    "Tailwind CSS",
     "Swiper.js",
   ],
+
   Backend: [
     "Node.js",
     "Express",
@@ -30,6 +32,39 @@ const skills = {
     "Oracle",
   ],
   Testing: ["Jest", "Cypress", "Testing Library"],
+  Tools: [
+    // DevOps & Cloud
+    "AWS",
+    "Docker",
+    "CI/CD",
+    "GitHub Actions",
+    "Jenkins",
+    "GitLab",
+
+    // Deployment Platforms
+    "Vercel",
+    "Render",
+    "Netlify",
+    "Heroku",
+
+    // Development & Scripting
+    "Git",
+    "Linux",
+    "Bash / Shell Scripting",
+    "NGINX",
+
+    // API & Testing Utilities
+    "Postman",
+
+    // Design & Collaboration
+    "Figma",
+    "Trello",
+    "Jira",
+
+    // Editors / IDEs
+    "VS Code",
+    "Sublime",
+  ],
 };
 
 const Skills = () => {

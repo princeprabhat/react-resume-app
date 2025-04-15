@@ -4,11 +4,13 @@ import Header from "./Header";
 import Links from "./Links";
 import Summary from "./Summary";
 import Skills from "./Skills";
-import Tools from "./Tools";
+// import Tools from "./Tools";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Education from "./Education";
 import MiniProjects from "./MiniProjects";
+import Certifications from "./Certifications";
+import Training from "./Training";
 
 const Resume = () => {
   const contentRef = useRef();
@@ -30,20 +32,22 @@ const Resume = () => {
   };
   return (
     <>
-      <div className="bg-gray-50 font-sans pt-4" ref={contentRef}>
+      <div className="bg-gray-50 font-sans pt-4 " ref={contentRef}>
         <Header />
         <Links />
-        <div className="flex m-3 gap-4">
+        <div className="flex mx-3 my-2 gap-4">
           <div className="section-left flex-1 ">
             <Summary />
             <Projects />
             <MiniProjects />
+            <Certifications />
           </div>
           <div className="section-right flex-1">
             <Skills />
-            <Tools />
+            {/* <Tools /> */}
             <Experience />
             <Education />
+            <Training />
           </div>
         </div>
       </div>
