@@ -5,28 +5,27 @@ const experienceObj = [
     name: "Wipro Technologies",
     position: "Operations Developer, IAM",
     tenure: "10/2021 - 06/2024",
-    skills: ["SailPoint", "OIM", "AD", "Java", "MySQL", "Postman", "PuTTY"],
+    skills: ["SailPoint","SAP", "OIM", "AD", "Java", "MySQL", "Postman", "PuTTY"],
     points: [
-      "Optimized Oracle/SQL databases, cutting query time by 40% and maintaining 99.9% uptime.",
-      "Tested 50+ APIs with Postman, reducing errors by 30%.",
-      "Contributed to SailPoint onboarding, improving connector performance by 25%.",
+      "Optimized Oracle and SQL queries, reducing average response time by 40% and improving data retrieval efficiency across modules.",
+      "Created and tested 100+ REST APIs, identifying integration issues early and supporting smoother deployments.",
+      "Supported SailPoint IdentityNow onboarding by configuring connectors and improving synchronization performance by 25%.",
     ],
   },
   {
     name: "iB Arts",
     position: "Web Developer, Intern",
-    tenure: "03/2021 - 09/2024",
+    tenure: "03/2021 - 09/2021",
     skills: [
       "Javascript",
-      "Wordpress",
+      "PHP",
       "HTML",
-      "Elementor",
-      "Divi",
-      "WP-Bakery",
+      "CSS",
+      "BootStrap",
       "SEO",
     ],
     points: [
-      "Built 10+ client websites with WordPress, Elementor, and WPBakery, improving client satisfaction by 30%.",
+      "Built 10+ client websites, improving client satisfaction by 30%.",
       "Optimized 15+ sites, cutting load times by 40% and improving SEO rankings by 25%.",
       "Managed 5+ projects on Trello, converting 20 Figma designs and earning Employee of the Month.",
       "Improved the company core website's performance by 35%, enhancing design and user engagement.",
@@ -35,14 +34,14 @@ const experienceObj = [
 ];
 const Experience = () => {
   return (
-    <div className="mt-2">
-      <p className="font-semibold text-lg text-slate-800 tracking-wide uppercase mb-2">
+    <div className="mt-1">
+      <p className="font-semibold text-lg text-slate-800 tracking-wide uppercase mb-1">
         Experience
       </p>
       <div>
         {experienceObj.map((el, idx) => {
           return (
-            <div key={idx} className="mb-2">
+            <div key={idx} className="mb-3">
               <div className="flex items-center gap-4 h-3 mt-1">
                 <span className="text-sm font-semibold text-slate-800">
                   --{el.name}

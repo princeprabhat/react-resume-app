@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="mt-2">
+    <div className="">
       <p className="font-semibold text-lg text-slate-800 tracking-wide uppercase mb-1">
         Education
       </p>
@@ -11,7 +11,7 @@ const Education = () => {
           B.Tech, Computer Science & Engineering (2017 - 2021)
         </p>
         <p className="text-xs font-medium text-slate-600 mb-1">
-          GGSESTC, Vinoba Bhave University [Jharkhand] · 75%
+          GGSESTC, Vinoba Bhave University [Jharkhand] · 85%
         </p>
         <p className="text-xs font-medium text-slate-600">
           <b>Relevant Coursework:</b> Data Structures & Algorithms, Operating

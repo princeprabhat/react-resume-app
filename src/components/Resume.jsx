@@ -35,19 +35,20 @@ const Resume = () => {
     <div className="bg-gray-50 font-sans pt-4 " ref={contentRef}>
       <Header />
       <Links />
-      <div className="flex mx-3 my-2 gap-4">
+      <div className="mx-3 my-2">
         <div className="section-left flex-1 ">
           <Summary />
+          <Skills />
           <Projects />
-          <MiniProjects />
-          <Certifications />
+          {/* <MiniProjects /> */}
+          {/* <Certifications /> */}
         </div>
         <div className="section-right flex-1">
-          <Skills />
           {/* <Tools /> */}
           <Experience />
           <Education />
           <Training />
+          <Certifications/>
         </div>
       </div>
     </div>

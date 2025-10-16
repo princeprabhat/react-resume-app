@@ -15,15 +15,15 @@ const Header = () => {
 
       <div className="text-xs text-right font-medium text-slate-800 leading-6">
         <a href="tel:+919304692093" className="block hover:underline">
-          📞 +91-9304692093
+           +91-9304692093
         </a>
         <a
           href="mailto:princeprabhat1996@gmail.com"
           className="block hover:underline"
         >
-          📧 princeprabhat1996@gmail.com
+           princeprabhat1996@gmail.com
         </a>
-        <p>🏠 Haridwar, Uttarakhand, India</p>
+        <p> Haridwar, Uttarakhand, India</p>
       </div>
     </div>
   );

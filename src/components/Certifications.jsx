@@ -14,15 +14,20 @@ const certificate = [
     link: "https://www.coursera.org/account/accomplishments/certificate/H8YRB33P6H3D",
   },
   {
-    name: "Write Professional Emails",
-    link: "https://coursera.org/share/ed8a4c80eafec5082f166e01c121b592",
+    name:"Cloud Computing (Cloud 101)",
+    link:"https://coursera.org/share/332abd8c7d3904b2b6ab5c9319ba94c1"
   },
+  // {
+  //   name:"Initiating and Planning Projects",
+  //   link:"https://coursera.org/share/0aa82c91b6fa7bc7ad28197559282fce"
+  // },
+
 ];
 
 const Certifications = () => {
   return (
     <div className="mt-2">
-      <p className="font-semibold text-lg text-slate-800 tracking-wide uppercase leading-none mb-1">
+      <p className="font-semibold text-lg text-slate-800 tracking-wide uppercase leading-none mb-2">
         Certifications
       </p>
       <div className="pl-2">
@@ -30,12 +35,12 @@ const Certifications = () => {
           return (
             <div
               key={idx}
-              className="flex gap-3 text-xs font-semibold text-slate-800 mr-2 leading-4"
+              className=" flex gap-2 pb-1 text-xs font-semibold text-slate-800 mr-2 leading-4"
             >
               <span>{el.name}</span>
               <a
                 href={el.link}
-                className="text-[8px] bg-slate-500 text-slate-50 px-1 font-bold rounded "
+                className="text-[8px] bg-slate-200 text-slate-600 px-1 font-bold rounded "
                 target="_blank"
                 rel="noopener noreferrer"
               >
